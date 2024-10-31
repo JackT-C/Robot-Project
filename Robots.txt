@@ -1,0 +1,4 @@
+Arena 20 6
+6 3 SOUTH
+4 2 EAST
+14 0 EAST
