@@ -6,11 +6,6 @@ import java.io.*;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * Simple program to show arena with multiple robots
- * @author shsmchlr
- *
- */
 public class RobotInterface {
 
     private Scanner s;								// scanner used for input from user
@@ -141,7 +136,7 @@ public class RobotInterface {
             System.out.println(canvas.toString()); // Display the updated arena
 
             try {
-                Thread.sleep(1000); // 1000ms delay between moves
+                Thread.sleep(250); // 250ms delay between moves
             } catch (InterruptedException e) {
                 System.out.println("Error in delaying the move: " + e.getMessage());
                 Thread.currentThread().interrupt();
